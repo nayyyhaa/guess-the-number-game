@@ -1,4 +1,4 @@
-#Find My Destiny
+# Find My Destiny
 Can you guess the correct number between 1 - 100? 
 
 It's a VanillaJs app created with simple concepts of -
@@ -19,15 +19,15 @@ If/else conditions
 
 Events are things that happen in the browser — a button being clicked, a page loading, a video playing, etc. — in response to which we can run blocks of code. The constructs that listen out for the event happening are called event listeners, and the blocks of code that run in response to the event firing are called event handlers.
 
-eg:In guessSubmit.addEventListener('click', checkGuess);
+    eg : guessSubmit.addEventListener('click', checkGuess);
 
-Here guessSubmit is event listener,
-checkGuess = event Handler
+      Here guessSubmit is event listener,
+      checkGuess = event Handler
 
 - Loops
 They allow you to keep running a piece of code over and over again, until a certain condition is met.
 
-#Check out the full game at : https://find-my-destiny.netlify.app/
+## Check out the full game at : https://find-my-destiny.netlify.app/
 
 
 
