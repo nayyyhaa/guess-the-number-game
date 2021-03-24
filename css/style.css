@@ -1,0 +1,31 @@
+html {
+    font-family: sans-serif;
+    background-color: #7a009f;
+  }
+  .lastResult {
+    color: white;
+    padding: 3px;
+  }
+    p  {
+    color:rgb(255, 245, 245);
+    width: 500px;
+    text-align: center;
+    }
+    h1 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 20px 0;
+    color: #6d009f;
+    text-shadow: 3px 3px 1px black;
+        
+    }
+    body {
+    width: 600px;
+    margin: 100px 435px;
+    background-color: #ffb0d1;
+    padding: 25px 20px 20px 20px;
+    border: 5px solid black;
+    }
