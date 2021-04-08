@@ -15,9 +15,9 @@ function checkGuess(){
   }
   guesses.textContent += userGuess + " ";
   if(userGuess === randomNumber){
-    lastResult.textContent ="Congratulation! You guessed it right.";
+    lastResult.textContent ="Congratulation! You guessed it right.🥳";
     lastResult.style.backgroundColor = 'green';
-    lowOrHi,textContent = '';
+    lowOrHi.textContent = '';
    setGameOver(); 
   }
   else if(guessCount === 10){
@@ -27,10 +27,10 @@ function checkGuess(){
   }else {
     if(userGuess < randomNumber) {
       lastResult.textContent = "Wrong guess, sis!";
-      lastResult.style.backgroundColor = 'yellow';
-      lowOrHi.textContent = 'Last guess was too low. Think high!';
+      lastResult.style.backgroundColor = 'orange';
+      lowOrHi.textContent = 'Last guess was too low. Think high!⚡';
     } else {
-      lowOrHi.textContent = 'Last guess was too high. Stay grounded!';
+      lowOrHi.textContent = 'Last guess was too high. Stay grounded!🌅';
     }
   }
   guessCount++;

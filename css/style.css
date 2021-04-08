@@ -1,6 +1,7 @@
 html {
     font-family: sans-serif;
     background-color: #7a009f;
+    padding: 5rem;
   }
   .lastResult {
     color: white;
@@ -8,7 +9,8 @@ html {
   }
     p  {
     color:rgb(255, 245, 245);
-    width: 500px;
+    display: block;
+    padding: 0.5rem;
     text-align: center;
     }
     h1 {
@@ -24,8 +26,13 @@ html {
     }
     body {
     width: 600px;
-    margin: 100px 435px;
-    background-color: #ffb0d1;
-    padding: 25px 20px 20px 20px;
+    margin: auto;
+    background-color: #fc607a;
+    padding: 20px;
     border: 5px solid black;
+    text-align: center;
+    }
+    .guessField{
+      display: block;
+      margin: 1rem auto;
     }
